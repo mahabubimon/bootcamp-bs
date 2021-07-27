@@ -1,5 +1,19 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 body::before {
-    display: block;
-    content: '';
-    height: 56px;
+  display: block;
+  content: "";
+  height: 56px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
